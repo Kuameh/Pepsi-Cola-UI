@@ -3,6 +3,10 @@
   font-family: "Sofia Pro Regular";
   src: url("/fonts/Sofia Pro Regular.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/fonts/Sofia Pro Black.woff2") format("woff2");
+}
 :root {
   --black: #0a0a0a;
   --blue: #0065c3;
