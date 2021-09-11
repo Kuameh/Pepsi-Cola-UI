@@ -32,6 +32,9 @@ body {
 body p {
   font-family: "Sofia Pro Regular", Helvetica, sans-serif;
 }
+body button {
+  font-family: "Sofia Pro Black", Helvetica, sans-serif;
+}
 
 .card {
   position: relative;
@@ -81,6 +84,7 @@ body p {
   margin: 0 0 15px 0;
 }
 .card .txt p {
+  font-weight: 500;
   margin: 0 0 30px 0;
 }
 .card .txt button {
