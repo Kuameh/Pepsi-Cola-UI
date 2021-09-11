@@ -37,7 +37,9 @@ body {
   }
 
   button {
+    all: unset;
     font-family: 'Sofia Pro Black', Helvetica, sans-serif;
+    cursor: pointer;
   }
 }
 
@@ -103,7 +105,6 @@ body {
     }
 
     button {
-      all: unset;
       padding: 10px 20px;
       font-size: 1.5rem;
       font-weight: 700;
@@ -115,6 +116,7 @@ body {
       &:hover {
         color: var(--blue);
         background-color: var(--white);
+        transform: scale(1.07);
       }
     }
   }
@@ -135,5 +137,15 @@ body {
       opacity: 1;
       visibility: visible;
     }
+  }
+}
+
+.tray {
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 20px 0;
+
+  img {
+    height: 90px;
   }
 }

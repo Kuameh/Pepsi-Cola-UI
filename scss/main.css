@@ -33,7 +33,9 @@ body p {
   font-family: "Sofia Pro Regular", Helvetica, sans-serif;
 }
 body button {
+  all: unset;
   font-family: "Sofia Pro Black", Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 .card {
@@ -93,7 +95,6 @@ body button {
   margin: 0 0 30px 0;
 }
 .card .txt button {
-  all: unset;
   padding: 10px 20px;
   font-size: 1.5rem;
   font-weight: 700;
@@ -105,6 +106,7 @@ body button {
 .card .txt button:hover {
   color: var(--blue);
   background-color: var(--white);
+  transform: scale(1.07);
 }
 .card:hover .circle::before {
   background-color: var(--blue);
@@ -119,4 +121,13 @@ body button {
   right: 30%;
   opacity: 1;
   visibility: visible;
+}
+
+.tray {
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 20px 0;
+}
+.tray img {
+  height: 90px;
 }/*# sourceMappingURL=main.css.map */
