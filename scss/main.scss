@@ -110,7 +110,7 @@ body {
       text-transform: uppercase;
       border: 4.5px solid var(--white);
       border-radius: 50px;
-      transition: 0.1s;
+      transition: 0.5s ease-in-out;
 
       &:hover {
         color: var(--blue);
@@ -132,7 +132,6 @@ body {
 
     .txt {
       right: 30%;
-      // transform: initial;
       opacity: 1;
       visibility: visible;
     }
